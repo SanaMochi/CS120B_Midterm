@@ -15,7 +15,7 @@ void Detect_ZC()
 		detect_zc_state = first;
             break;
 
-	case first:
+/*	case first:
 		if (l_dir == dir) state = first;
 		else state = second;
 	    break;
@@ -35,7 +35,7 @@ void Detect_ZC()
 	case third:
 		break;
 	case out:
-        default:
+*/        default:
             detect_zc_state = DZCInit;
             break;
     }
@@ -43,7 +43,7 @@ void Detect_ZC()
     {
         case DZCInit:
             break;
-	case first:
+/*	case first:
 	    break;
 	case second:
 	    break;
@@ -52,7 +52,7 @@ void Detect_ZC()
 	case out:
 	    zc = 1;
 	    break;
-        default:
+  */      default:
             break;
     }
 }

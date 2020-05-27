@@ -18,7 +18,7 @@ typedef enum detect_eq_states { DEQInit, d_eq, wait_eq
 } detect_eq_states;
 typedef enum detect_max_amp_states { DMAInit, update_max
 } detect_max_amp_states;
-typedef enum detect_zc_states { DZCInit, e, ne, n, nw, w, sw, s, se, e_opp, ne_opp, n_op, nw_opp, w_opp, sw_opp, s_opp, se_opp, out
+typedef enum detect_zc_states { DZCInit, first, second, third, out// e, ne, n, nw, w, sw, s, se, e_opp, ne_opp, n_op, nw_opp, w_opp, sw_opp, s_opp, se_opp, out
 } detect_zc_states;
 typedef enum transmit_states {TInit,                                        } transmit_states;
 
