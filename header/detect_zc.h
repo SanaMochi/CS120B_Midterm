@@ -11,11 +11,11 @@ void Detect_ZC()
     switch(detect_zc_state)
     {
         case DZCInit:
-		l_dir = dir;
+/*		l_dir = dir;
 		detect_zc_state = first;
             break;
 
-/*	case first:
+	case first:
 		if (l_dir == dir) state = first;
 		else state = second;
 	    break;
